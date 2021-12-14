@@ -1,0 +1,24 @@
+{
+  "name": "grammerhub.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grammerhub/grammerhub.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grammerhub/grammerhub.github.io/issues"
+  },
+  "homepage": "https://github.com/grammerhub/grammerhub.github.io#readme",
+  "dependencies": {
+    "gatsby": "^4.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
