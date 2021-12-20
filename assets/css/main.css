@@ -2723,6 +2723,16 @@ input, select, textarea {
 			ul.actions.fit.stacked {
 				width: 100%;
 			}
+	ul.actions.skills{
+		flex-wrap: wrap;
+
+	}
+	ul.actions.skills > li{
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		border-radius: 2em;
+		margin: 0.5em;
+		padding: 0.2em 0.8em;
+	}
 
 		@media screen and (max-width: 480px) {
 
