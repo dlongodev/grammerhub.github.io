@@ -2556,6 +2556,7 @@ input, select, textarea {
 		.image-dev img {
 			border-radius: 4px;
 			display: block;
+			width: 100%;
 		}
 
 		.image.left {
@@ -3524,7 +3525,6 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
 		}
@@ -3558,6 +3558,14 @@ input, select, textarea {
 					display: block;
 					width: 100%;
 				}
+
+				#banner .content .logo {
+				border-radius: 100%;
+				display: block;
+				height: 15em;
+				margin: 0 auto;
+				width: 15em;
+			}
 
 	body.is-touch #banner {
 		background-attachment: scroll;
@@ -3766,7 +3774,7 @@ input, select, textarea {
 					}
 
 					#banner .content .image {
-						margin: 0;
+						margin: 0 auto;
 					}
 
 		/* Footer */
